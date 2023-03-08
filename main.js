@@ -30,3 +30,10 @@ let parrafo4 = 189;
 let donde3 = String.fromCharCode(parrafo4);
 
 console.log(donde3)
+
+// metodos de concat
+
+let p5 = 'hola';
+let p6 = 'mundo';
+
+console.log(p5.concat(p6));

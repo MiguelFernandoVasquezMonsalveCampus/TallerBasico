@@ -16,3 +16,10 @@ let parrafo2 = 'tengo hambre';
 let donde1 = parrafo2.charCodeAt(4);
 
 console.log(donde1)
+
+// metodos de codePointAt
+
+let parrafo3 = 'tengo hambre';
+let donde2 = parrafo3.codePointAt();
+
+console.log(donde2)

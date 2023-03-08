@@ -6,7 +6,13 @@ console.log(`Largo del texto (${parrafo}): ${largo}`);
 
 // metodos de CharAt
 
-let parrafo1 = 'hello campus'
-let donde = parrafo1.charAt(6)
-console.log(donde)
+let parrafo1 = 'hello campus';
+let donde = parrafo1.charAt(6);
+console.log(donde);
 
+// metodos de charCodeAt
+
+let parrafo2 = 'tengo hambre';
+let donde1 = parrafo2.charCodeAt(4);
+
+console.log(donde1)

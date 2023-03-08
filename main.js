@@ -23,3 +23,10 @@ let parrafo3 = 'tengo hambre';
 let donde2 = parrafo3.codePointAt();
 
 console.log(donde2)
+
+// metodos de fromCharCode
+
+let parrafo4 = 189;
+let donde3 = String.fromCharCode(parrafo4);
+
+console.log(donde3)

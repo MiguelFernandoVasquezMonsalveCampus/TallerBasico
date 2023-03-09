@@ -44,3 +44,10 @@ let p7 = 'hola mundo';
 let p8 = p7.indexOf('m');
 
 console.log(p8);
+
+// metodos de lastIndexOf
+
+let p9 = 'hola mundo';
+let p10 = p9.lastIndexOf('mundo');
+
+console.log(p10);

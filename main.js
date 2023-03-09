@@ -37,3 +37,10 @@ let p5 = 'hola';
 let p6 = 'mundo';
 
 console.log(p5.concat(p6));
+
+// metodos de indexOf
+
+let p7 = 'hola mundo';
+let p8 = p7.indexOf('m');
+
+console.log(p8);

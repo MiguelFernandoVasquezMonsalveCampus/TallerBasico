@@ -65,3 +65,10 @@ let p11 = 'hola';
 let p12 = 'HOLA';
 
 console.log(p11.localeCompare(p12));
+
+// metodo de match
+
+let p13 = 'hola mundo';
+let p14 = p13.match(/mundo/);
+
+console.log(p14);

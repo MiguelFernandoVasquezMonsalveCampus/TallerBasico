@@ -59,3 +59,9 @@ const regex = /[^\w\s]/g;
 console.log(paragraph.search(regex));
 console.log(paragraph[paragraph.search(regex)]);
 
+// metodos de localeCompare
+
+let p11 = 'hola';
+let p12 = 'HOLA';
+
+console.log(p11.localeCompare(p12));

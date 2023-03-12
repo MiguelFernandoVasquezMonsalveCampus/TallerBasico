@@ -51,3 +51,11 @@ let p9 = 'hola mundo';
 let p10 = p9.lastIndexOf('mundo');
 
 console.log(p10);
+
+// metodos de search
+
+const paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?';
+const regex = /[^\w\s]/g;
+console.log(paragraph.search(regex));
+console.log(paragraph[paragraph.search(regex)]);
+

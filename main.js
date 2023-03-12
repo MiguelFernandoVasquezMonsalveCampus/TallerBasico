@@ -81,3 +81,9 @@ const array = [...str.matchAll(regexp)];
 
 console.log(array[0]);
 console.log(array[1]);
+
+// metodos de repeat
+
+p15 = 'hola';
+
+console.log(p15.repeat(3));

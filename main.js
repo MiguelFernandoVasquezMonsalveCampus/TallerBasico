@@ -87,3 +87,10 @@ console.log(array[1]);
 p15 = 'hola';
 
 console.log(p15.repeat(3));
+
+// metodos de replace
+
+let p16 = 'hola mundo';
+let p17 = p16.replace('mundo', 'campus');
+
+console.log(p17);

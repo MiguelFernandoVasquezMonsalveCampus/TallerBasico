@@ -94,3 +94,10 @@ let p16 = 'hola mundo';
 let p17 = p16.replace('mundo', 'campus');
 
 console.log(p17);
+
+// metodos de slice
+
+let p18 = 'hola mundo';
+let p19 = p18.slice(0, 4);
+
+console.log(p19);

@@ -101,3 +101,10 @@ let p18 = 'hola mundo';
 let p19 = p18.slice(0, 4);
 
 console.log(p19);
+
+// metodos de substr
+
+let p20 = 'hola mundo';
+let p21 = p20.substr(0, 8);
+
+console.log(p21);
